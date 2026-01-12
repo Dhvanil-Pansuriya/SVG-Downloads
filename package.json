@@ -1,0 +1,17 @@
+{
+  "name": "svg-downloads",
+  "version": "1.0.0",
+  "description": "Fast SVG icon scraper for SimpleIcons.org with parallel processing",
+  "license": "ISC",
+  "author": "Dhvanil Pansuriya",
+  "type": "commonjs",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js",
+    "visible": "node src/scraper-visible.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3",
+    "puppeteer": "^21.11.0"
+  }
+}
